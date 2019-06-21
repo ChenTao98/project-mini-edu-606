@@ -11,11 +11,11 @@
 
 ### 微信小程序界面
 
-![Alt text](assets/1561096011763.png)
+![Alt text](assets/wechatapplet.jpg)
 
 ### 教师端界面
 
-![Alt text](assets/wechatapplet.jpg)
+![Alt text](assets/1561095837141.png)
 
 ![Alt text](assets/1561096043823.png)
 
