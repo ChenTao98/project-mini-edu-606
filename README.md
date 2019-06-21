@@ -15,7 +15,7 @@
 
 ### 教师端界面
 
-![Alt text](assets/1561095837141.png)
+![Alt text](assets/wechatapplet.jpg)
 
 ![Alt text](assets/1561096043823.png)
 
