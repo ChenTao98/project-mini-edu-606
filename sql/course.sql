@@ -1,0 +1,11 @@
+INSERT INTO `course` VALUES (1, '计算机图形学', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-1.jpg', '计算机图形学研究图像、图形的计算机表示');
+INSERT INTO `course` VALUES (2, '系统程序设计', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-2.jpg', NULL);
+INSERT INTO `course` VALUES (3, '软件质量保障与测试', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-3.jpg', '软件质量与软件测试的概念是分不开的，测试是手段，质量是目的。软件测试能够提高软件质量，但是软件测试和软件质量保证二者之间既存在包含又存在交叉的关系。');
+INSERT INTO `course` VALUES (4, '高级web', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-4.jpg', NULL);
+INSERT INTO `course` VALUES (5, '算法与数据结构', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-5.jpg', NULL);
+INSERT INTO `course` VALUES (6, '程序设计', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-6.jpg', NULL);
+INSERT INTO `course` VALUES (7, '面向对象程序设计', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-7.jpg', NULL);
+INSERT INTO `course` VALUES (8, '深入理解计算机系统', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-8.jpg', NULL);
+INSERT INTO `course` VALUES (9, '编译原理', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-9.jpg', NULL);
+INSERT INTO `course` VALUES (10, '操作系统', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-10.jpg', NULL);
+INSERT INTO `course` VALUES (23, '软件过程', 'a88846fa-4c03-478b-8734-bafd5d947581', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/course-image-23.jpg', '软件过程是指软件整个生命周期，从需求获取，需求分析，设计，实现，测试，发布和维护一个过程模型。');

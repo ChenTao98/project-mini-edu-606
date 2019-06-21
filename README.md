@@ -9,6 +9,8 @@
 * 教师端Web应用前端：https://github.com/zzxn/conversation-teaching-background
 * 教师端Web应用后端：https://github.com/zzxn/adweb-user-rest
 
+教师端部署地址：http://139.196.215.77
+
 ### 微信小程序界面
 
 ![Alt text](assets/wechatapplet.jpg)
@@ -51,9 +53,24 @@
 
 ![Alt text](assets/dababase-digram.png)
 
-
+相应的SQL文件在本项目的```/sql```目录下。
 
 ## 4. 功能点说明
+
+* 基本功能：完成了要求的所有基本功能
+* 附加功能：
+    * 完全的前后端分离架构：前端是微信小程序 + Angular，后端使用Spring Boot提供REST服务
+    * 良好的代码风格
+    * 真实可用的系统：有着较高的可交互性、易用性、美观程度
+    * 所有子项目部署在阿里云服务器上的Docker容器中
+    * 使用了阿里云OSS对象存储服务
+    * 开发过程中使用了Jenkins自动化部署
+    * 教师端后端API使用统一异常处理机制
+    * 教师端后端API使用基于JWT的验证机制（使用Jose4J实现）
+    * Angular应用使用响应式设计
+    * Angular应用解决刷新404问题（不采用#风格）
+    
+下面是根据项目要求的自检表：
 
 功能项 | 得分项 |	实现情况
 - | - | -
@@ -69,11 +86,38 @@
 &nbsp; | 代码风格| 良好
 &nbsp; | 项目完整度和易用性 | 项目完整，容易使用。
 附加功能	| 模型、动画、场景的美观程度	| 微信端首页最上方轮播图片、微信端我的页面使用gif、教师Web应用课程管理页面使用了渐变色。微信端使用了ColorUI CSS库，教师端使用NG ZORRO组件库进行美化。
-&nbsp; | 使用 Docker 部署服务器	 | 将微信小程序后端、教师Web应用教师Web应用后端、mysql数据库均部署到了相应的docker容器中。
-&nbsp; |将服务器部署到公有云上 |	服务器部署到了公有云上，入口地址 http://139.196.215.77
+&nbsp; | 使用 Docker 部署服务器	 | 将微信小程序后端、教师Web应用教师Web应用后端、mysql数据库均部署到了相应的docker容器中。
+&nbsp; |将服务器部署到公有云上 |	服务器部署到了公有云上，入口地址 http://139.196.215.77
 &nbsp; | 其他合理的附加功能 |	使用阿里云的对象存储服务来存储用户的头像和课程的图片，使用token对用户进行认证和授权（实现细节见附加功能部分）。
 
 ## 5. 附加功能及其实现原理
+
+* 真实可用的系统：有着较高的可交互性、易用性、美观程度
+    * 微信小程序使用ColorUI优化界面和交互
+    * Angular应用使用NG ZORRO优化界面和交互（包括实时的表单验证）
+    * 编写样式表对界面进行精细调整
+* 所有子项目部署在阿里云服务器上的Docker容器中
+    * 具体的部署方式请参考各个子项目下的README，子项目的链接在开头给出
+* 使用了阿里云OSS对象存储服务
+    * 具体使用方式参考https://github.com/zzxn/adweb-user-rest
+* 开发过程中使用了Jenkins自动化部署
+    * 为了避免使用云服务的花费和延迟，我们把公用的用户登录/注册服务部署在一台闲置的笔记本上
+    * 在笔记本上安装Jenkins，编写自动部署脚本
+    * 自动部署脚本从Github特定仓库下载打包好的.jar文件
+    * 通过给之前的部署好的服务发起特定请求的方式停止之前部署的服务
+    * 之后调用Windows的JavaScript执行引擎，执行部署代码
+    * 之所以运行JavaScript来间接部署，是因为Windows中没有类似```nohup ... &```这样的命令让应用在后台运行
+* 教师端后端API使用统一异常处理机制
+    * 实现方式参考https://github.com/zzxn/adweb-user-rest
+* 教师端后端API使用基于JWT的验证机制（使用Jose4J实现）
+    * 实现方式参考https://github.com/zzxn/adweb-user-rest
+* Angular应用使用响应式设计
+    * NG ZORRO本身有着响应式的能力
+    * 使用Angular的绑定机制用ts代码实现响应式
+    * 一些地方利用的```CSS3```的```calc()```函数实现响应式
+* Angular应用解决刷新404问题（不采用#风格）
+    * 部署到tomcat后把404页面指定为 / 
+    * 其原理参考https://github.com/zzxn/adweb-user-rest
 
 ## 6. 团队分工
 

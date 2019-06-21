@@ -1,0 +1,11 @@
+INSERT INTO `user` VALUES (1, 'a88846fa-4c03-478b-8734-bafd5d947581', 'zzxn', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/a88846fa-4c03-478b-8734-bafd5d947581.jpg', '123456789@qq.com', 1, NULL, 1, 'd2efe00569edcbb116ed311a79a8423c3f88a71767897b56e3774eab7fe9c346', '朱小宁');
+INSERT INTO `user` VALUES (4, 'oZcfm5SfkR5aTK0_LHFyqrUVoE_k', 'oZcfm5SfkR5aTK0_LHFyqrUVoE_k', NULL, '123456789@qq.com1', 0, 1234567891, 2, NULL, '刘辉');
+INSERT INTO `user` VALUES (5, '821ce0a6-75f2-4375-9e48-b5a4fe4c84ae', 'zzzxn', NULL, 'test@test.com', NULL, NULL, 1, 'mypassword', NULL);
+INSERT INTO `user` VALUES (6, '18eef372-3896-4c0e-b7e6-f859a508029f', 'zzzzxn', NULL, 'test@test.com', NULL, NULL, 1, 'mypassword', NULL);
+INSERT INTO `user` VALUES (7, '6d6650a0-81d7-41a0-860d-91ba84ca6e19', 'ddddddd', NULL, 'ddddddddddd@ds.com', NULL, NULL, 1, 'dddddddddddd', NULL);
+INSERT INTO `user` VALUES (8, '756af9c3-e5ed-4fdb-800f-dd00c9e6350d', 'asdas', NULL, 'ASD@sddfd.com', NULL, NULL, 1, 'asdasdd', NULL);
+INSERT INTO `user` VALUES (9, '706af4ec-518f-4678-b484-72f9a31d205a', 'zzxntest', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/706af4ec-518f-4678-b484-72f9a31d205a.jpg', 'test@test.test', NULL, NULL, 1, 'mypassword', 'Pikachu');
+INSERT INTO `user` VALUES (10, 'a3b118be-e855-4410-b93c-4b9bf74368ed', 'liuhui', NULL, 'dsf@dfsdf.com', NULL, NULL, 1, 'password', NULL);
+INSERT INTO `user` VALUES (11, 'a817e9dc-142f-4f83-855a-0300e15dc52f', 'test', 'http://adweb-image.oss-cn-shanghai.aliyuncs.com/a817e9dc-142f-4f83-855a-0300e15dc52f.jpg', 'test@test.test', NULL, NULL, 1, 'password', NULL);
+INSERT INTO `user` VALUES (12, 'a83272ad-877a-424f-a55a-169af0fb9562', 'sdfsd', NULL, 'sdfsd@fsdsd.dsfsd', NULL, NULL, 1, 'sdfasdf', NULL);
+INSERT INTO `user` VALUES (13, 'ceb4ed57-5a81-460d-afd7-e4af283002f3', 'test2', NULL, 'sdf@dsf.com', NULL, NULL, 1, '5f4dcc3b5aa765d61d8327deb882cf99', NULL);
